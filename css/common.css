@@ -72,3 +72,17 @@ gap: 16px;
   width: 360px;
   padding: 0 10px;
 }
+
+/* task-2 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+img {
+  flex-basis: calc(33.333% - 10px / 3);
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+}
